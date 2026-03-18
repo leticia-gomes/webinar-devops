@@ -4,6 +4,7 @@
   "description": "Projeto utilizado no webinar de prática devops",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
