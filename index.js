@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.send('Aplicação rodando ...');
 });
 
+app.get('/agradecimento', (req, res) => {
+    res.send('Obrigada por assistirem até aqui. Profa. Letícia!');
+});
+
 app.get('/soma', (req, res) => {
     const {a, b} = req.query;
     const resultado = soma(Number(a), Number(b));
