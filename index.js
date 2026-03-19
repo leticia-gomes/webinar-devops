@@ -1,20 +1,18 @@
 const express = require('express');
+const app = express();
 const soma = require('./soma');
 
-const app = express();
-
 app.get('/', (req, res) => {
-    res.send('Aplicação rodando ...');
+    res.send('🚀 Aplicação rodando com DevOps! Deploy atualizado!');
 });
 
 app.get('/agradecimento', (req, res) => {
-    res.send('Obrigada por assistirem até aqui. Profa. Letícia!');
+    res.send('Obrigada por assistir o webinar de DevOps - Profa. Letícia!');
 });
 
 app.get('/soma', (req, res) => {
-    const {a, b} = req.query;
+    const { a, b } = req.query;
     const resultado = soma(Number(a), Number(b));
-
     res.send(`Resultado: ${resultado}`);
 });
 

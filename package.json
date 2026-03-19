@@ -1,7 +1,7 @@
 {
   "name": "webinar-devops",
   "version": "1.0.0",
-  "description": "Projeto utilizado no webinar de prática devops",
+  "description": "This project was created as part of a hands-on DevOps webinar, demonstrating real-world DevOps practices including CI/CD pipelines, automated deployment, monitoring, and modern development workflows.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
